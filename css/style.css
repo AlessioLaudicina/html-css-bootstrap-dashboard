@@ -1,0 +1,13 @@
+
+
+main{
+    height: 500px;
+    background-color: pink;
+}
+
+.sidebar{
+    overflow: hidden;
+    width: 25%;
+    background-color: red;
+    height: 100%;
+}

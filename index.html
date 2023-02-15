@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="fixed-top mb-5">
         
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
@@ -24,15 +24,14 @@
 
     </header>
 
-    <main class="d-flex">
-        
-        <aside class="sidebar">
+    <main class="d-flex ">
+        <aside class="sidebar mt-5">
             <div class="sidebar-top">
                 <nav class="sidebar-list">
                     <ul>
-                        <li><a href=""><span class="label">Home</span></a></li>
-                        <li><a href=""><span class="label">Stats</span></a></li>
-                        <li><a href=""> <span class="label">Signal</span></a></li>
+                        <li><a href=""> <span class="text-white">Home</span></a></li>
+                        <li><a href=""><span class="text-white">Stats</span></a></li>
+                        <li><a href=""> <span class="text-white">Signal</span></a></li>
 
                       
                     </ul>
@@ -48,8 +47,11 @@
 
         </aside>
 
-        <div class="first-table mt-2 w-50">
-            <div class="card container">
+
+
+        <div class="first-table mt-2 w-75 px-3">
+            <div class="container"></div>
+            <div class="card">
                 <div class="card-header">
                   <h4>Prossime classi</h4>
                 </div>
@@ -57,49 +59,51 @@
                     <table class="table caption-top">
                         <thead>
                           <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Data di inizio</th>
+                            <th scope="col">ROI</th>
+                            <th scope="col">Stato</th>
+                            <th scope="col">Azioni</th>
+
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
+                            <td>Classe 87</td>
                             <td>Otto</td>
                             <td>@mdo</td>
                           </tr>
                           <tr>
                             <th scope="row">2</th>
-                            <td>Jacob</td>
+                            <td>Classe 87</td>
                             <td>Thornton</td>
                             <td>@fat</td>
                           </tr>
                           <tr>
                             <th scope="row">3</th>
-                            <td>Larry</td>
+                            <td>Classe 87</td>
                             <td>the Bird</td>
                             <td>@twitter</td>
                           </tr>
 
                           <tr>
                             <th scope="row">4</th>
-                            <td>Larry</td>
+                            <td>Classe 87</td>
                             <td>the Bird</td>
                             <td>@twitter</td>
                           </tr>
 
                           <tr>
                             <th scope="row">5</th>
-                            <td>Larry</td>
+                            <td>Classe 87</td>
                             <td>the Bird</td>
                             <td>@twitter</td>
                           </tr>
 
                           <tr>
                             <th scope="row">6</th>
-                            <td>Larry</td>
+                            <td>Classe 87</td>
                             <td>the Bird</td>
                             <td>@twitter</td>
                           </tr>
@@ -108,9 +112,9 @@
                 </div>
               </div>
 
-              <div class="faq">
+              <div class="faq w-100 mt-3">
                 <div class="card">
-                    <h5 class="card-header">FAQ</h5>
+                    <h5 class="card-header">F.A.Q</h5>
                     <div class="card-body">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
@@ -151,7 +155,7 @@
               
         </div>
 
-        <div class="to-do">
+        <div class="to-do mt-2 mx-2">
             <div class="card">
                 <h5 class="card-header">To Do</h5>
                 <div class="card-body">
@@ -171,6 +175,24 @@
                       </ul>
                 </div>
               </div>
+
+              <div class="card mt-3" style="width: 18rem;">
+                <img src="./img/stats.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Utenti attivi</h5>
+                  <p class="card-text">Lista utenti attivi</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Gennaio: 1010</li>
+                  <li class="list-group-item">Febbraio: 800</li>
+                  <li class="list-group-item">Marzo: 1500</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Visualizza report approfondito</a>
+                </div>
+              </div>
+
+              
           </div>
 
         

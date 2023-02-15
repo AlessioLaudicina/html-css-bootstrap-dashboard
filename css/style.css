@@ -2,6 +2,15 @@
     padding: 0;margin: 0;box-sizing: border-box;
 }
 
+body{
+    background-color: #f9f9fa;
+}
+
+.main-header{
+    height: 1000px;
+    background-color: blue;
+    width: 100px;
+}
 
 aside{
     width: 100px;
@@ -9,8 +18,9 @@ aside{
 
 .sidebar{
     width: 100px;
-    background-color: red;
+    background-color: #12283e;
     height: 900px;
+    background-image: url(../img/sidebar-bg.png);
 
 }
 
@@ -22,19 +32,14 @@ aside{
     background-color: orange;
 }
 
-.sidebar-list{
-    margin-top: 20px;
-    padding: 0 10px;
-}
+
 
 .sidebar-list li{
     list-style: none;
     padding: 5px 0;
 }
 
-.sidebar-bottom{
-    height: 100px;
-    display: flex;
-    justify-content: end;
-    background-color: green;
+.sidebar-list a{
+    text-decoration: none;
 }
+

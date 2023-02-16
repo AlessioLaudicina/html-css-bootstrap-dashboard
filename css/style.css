@@ -15,7 +15,6 @@ aside{
 .sidebar{
     width: 100px;
     background-color: #12283e;
-    height: 900px;
     background-image: url(../img/sidebar-bg.png);
 
 }
@@ -25,7 +24,6 @@ aside{
 
 .sidebar-top{
     height: 100px;
-    background-color: orange;
 }
 
 
@@ -38,4 +36,35 @@ aside{
 .sidebar-list a{
     text-decoration: none;
 }
+
+.content{
+    overflow-y: hidden;
+    width: calc(100% - 100px);
+
+
+}
+.main-start{
+    background-color: #1d72e8;
+    
+    top: 0;
+    justify-content: space-between;
+    padding: 10px 5px;
+    
+}
+
+.star-list span{
+    background-color: #2b558f;
+}
+
+
+
+.ms-table-img{
+    max-width: 30px;
+    border-radius: 50%;
+}
+
+
+
+
+
 

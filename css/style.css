@@ -22,7 +22,7 @@ aside{
 }
 
 .sidebar{
-    width: 100px;
+    max-width: 150px;
     background-color: #12283e;
     background-image: url(../img/sidebar-bg.png);
 
@@ -40,7 +40,10 @@ aside{
     display: flex;
     align-items: flex-end;
 }
-
+.sidebar-list ul{
+    
+    padding: 10px 10px;
+}
 
 
 .sidebar-list li{
@@ -76,6 +79,8 @@ aside{
     max-width: 30px;
     border-radius: 50%;
 }
+
+
 
 
 

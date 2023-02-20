@@ -21,9 +21,9 @@
                 <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
                 <input type="text" class="form-control" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
                 <div class="icons d-flex align-items-center">
-                    <i class="fa-solid fa-list-ul"></i>
-                    <i class="fa-solid fa-circle-question"></i>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <i class="fa-solid fa-list-ul d-none d-lg-inline "></i>
+                    <i class="fa-solid fa-circle-question d-none d-lg-inline"></i>
+                    <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline"></i>
                     <div class="dropdown">
                         <button class="border-0 bg-transparent text-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-bell"></i>
@@ -43,21 +43,26 @@
 
     </header>
 
-    <main class="d-flex flex-wrap">
+    <main class="d-flex">
+        
         <aside class="sidebar">
             <div class="sidebar-top">
                 <nav class="sidebar-list">
                     <ul>
-                        <li><a href=""> <span class="text-white"> <i class="fa-solid fa-house"></i>  Home</span></a></li>
-                        <li><a href=""><span class="text-white"> <i class="fa-solid fa-chart-simple"></i>  Stats</span></a></li>
-                        <li><a href=""> <span class="text-white"> <i class="fa-solid fa-signal"></i>  Signal</span></a></li>
+                        <li><a href="#" class="text-white"> <i class="fa-solid fa-house"></i> <span class="label d-none d-lg-inline-block">  Home</span></a></li>
+                        <li><a href="#" class="text-white"> <i class="fa-solid fa-chart-simple"></i> <span class="label d-none d-lg-inline-block">  Stats</span></a></li>
+                        <li><a href="#" class="text-white"> <i class="fa-solid fa-signal"></i>  <span class="label d-none d-lg-inline-block">  Signal</span></a></li>
 
-                      
                     </ul>
                 </nav>
             </div>
-            <div class="sidebar-bottom text-white">
-                <span><i class="fa-solid fa-gear"></i>  Admin</span>
+            <div class="sidebar-bottom">
+                <nav class="sidebar-list">
+                    <ul>
+                        <li><a href="#" class="text-white"><i class="fa-solid fa-gear"></i> <span class="label d-none d-lg-inline-block">Admin</span></a></li>
+                    </ul>
+                </nav>
+            
                 
             </div>
 
@@ -67,17 +72,22 @@
             <div class="main-start d-flex">
 
                 <div class="start-list text-white">
-                    <h2 class="d-inline-block">Boolean</h2> <span class="badge rounded-pill">Piano blaze</span>
+                    <h2 class="d-inline-block">Boolean</h2> <span class="badge rounded-pill ms-bg-pill">Piano blaze</span>
                     <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
                         <ol class="breadcrumb flex-nowrap">
                           <li class="breadcrumb-item">
-                            <span>3 app</span>
+                            <span class="badge rounded-pill ms-bg-pill">3 app</span>
                           </li>
 
                           <li class="breadcrumb-item">
-                            <span>Boolean mobile app</span>
-                            <span>Boolean web app</span>
-                            <span>Boolean blog app</span>
+                            <span class="badge rounded-pill ms-bg-pill d-inline d-lg-none"> + </span>
+
+                            <span class="badge rounded-pill ms-bg-pill d-none d-lg-inline">Boolean web app</span>
+                            <span class="badge rounded-pill ms-bg-pill d-none d-lg-inline">Boolean mobile app</span>
+                            <span class="badge rounded-pill ms-bg-pill d-none d-lg-inline">Boolean blog app</span>
+
+
+                          
                           </li>
 
                         </ol>
@@ -150,7 +160,7 @@
 
 
         <div class="first-table mt-2 px-3 d-flex ">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="card">
@@ -341,26 +351,11 @@
 
           
     </div>
-
-
-
-
-
-        
-
-        
-
-        
-
-
         
 
 
     </main>
 
-    <footer>
-        
-    </footer>
 
 
 

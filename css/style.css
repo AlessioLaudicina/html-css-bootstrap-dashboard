@@ -31,6 +31,8 @@ aside{
 
 .sidebar-top{
     height: 60%;
+    display: flex;
+    justify-content: center;
 }
 
 .sidebar-bottom{
